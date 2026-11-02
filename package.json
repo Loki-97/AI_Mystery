@@ -2,6 +2,7 @@
   "name": "ai-mystery-room",
   "version": "1.0.0",
   "private": true,
+  "engines": { "node": ">=20" },
   "workspaces": ["client", "server"],
   "scripts": {
     "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
